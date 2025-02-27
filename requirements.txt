@@ -5,4 +5,5 @@ plotly
 dash
 urllib
 dash-bootstrap-components
+gunicorn
 
