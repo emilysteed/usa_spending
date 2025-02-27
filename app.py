@@ -9,6 +9,8 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.BOOTSTRAP],
 )
 
+server = app.server
+
 app.layout = html.Div([
          dcc.Location(id="url", pathname="/02_usaid"),
          sidebar(),
@@ -16,6 +18,7 @@ app.layout = html.Div([
          dash.page_container,
      ],
  )
+
 
 if __name__ == '__main__':
     app.run(debug=True, dev_tools_hot_reload=True)
