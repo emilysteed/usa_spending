@@ -2,10 +2,10 @@
 import plotly.express as px
 
 def usaid_term_graph_state(usaid_term_data):
-    usaid_term_data = usaid_term_data[['state_abbrev', 'Prime', 'Obligation']]
+    usaid_term_data = usaid_term_data[['state_abbrev', 'Prime','Obligation']]
 
     fig = px.bar(usaid_term_data, 
-                 x='state_abbrev', 
+                 x='state_abbrev',
                  y='Obligation', 
                  color='Prime',
                  title='Obligated Funds for Terminations',
