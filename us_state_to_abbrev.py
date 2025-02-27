@@ -11,6 +11,8 @@
 # Automatically Generated 2024-10-08 07:45:06 via Jupyter Notebook from
 # https://gist.github.com/rogerallen/d75440e8e5ea4762374dfd5c1ddf84e0 
 
+# Edited on 2/26/2025 by Emily Steed to normalize the dictionary.
+
 us_state_to_abbrev = {
     "Alabama": "AL",
     "Alaska": "AK",
