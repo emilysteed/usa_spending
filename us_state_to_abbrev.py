@@ -71,6 +71,8 @@ us_state_to_abbrev = {
     "Virgin Islands, U.S.": "VI",
 }
     
+us_state_to_abbrev = {k.title(): v for k, v in us_state_to_abbrev.items()}
+
 # invert the dictionary
 abbrev_to_us_state = dict(map(reversed, us_state_to_abbrev.items()))
 
