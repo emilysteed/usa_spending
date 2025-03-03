@@ -1,5 +1,6 @@
 import requests
 
+
 # Get the data from the API
 def call_api(endpoint):
     response = requests.get(f"https://api.usaspending.gov/{endpoint}")
@@ -7,4 +8,3 @@ def call_api(endpoint):
         return response.json()
     else:
         print("Failed to retrieve data.")
-

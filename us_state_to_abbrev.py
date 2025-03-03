@@ -9,7 +9,7 @@
 # https://en.wikipedia.org/wiki/ISO_3166-2:US
 #
 # Automatically Generated 2024-10-08 07:45:06 via Jupyter Notebook from
-# https://gist.github.com/rogerallen/d75440e8e5ea4762374dfd5c1ddf84e0 
+# https://gist.github.com/rogerallen/d75440e8e5ea4762374dfd5c1ddf84e0
 
 # Edited on 2/26/2025 by Emily Steed to normalize the dictionary.
 
@@ -72,10 +72,8 @@ us_state_to_abbrev = {
     "United States Minor Outlying Islands": "UM",
     "Virgin Islands, U.S.": "VI",
 }
-    
+
 us_state_to_abbrev = {k.title(): v for k, v in us_state_to_abbrev.items()}
 
 # invert the dictionary
 abbrev_to_us_state = dict(map(reversed, us_state_to_abbrev.items()))
-
-
