@@ -3,6 +3,7 @@
 /data/get_agency_data.py
 /data/get_award_types.py
 ideas.txt
+**/__pycache__/
 
 
 
